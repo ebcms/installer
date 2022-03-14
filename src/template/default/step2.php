@@ -190,11 +190,11 @@
 </div>
 <div class="mt-4 d-flex justify-content-end pt-4 border-top">
     {if !$env_err}
-    <a class="btn btn-light" href="{:$router->build('/ebcms/installer/index', ['step'=>1])}" role="button">上一步</a>
-    <a class="btn btn-primary ms-2" href="{:$router->build('/ebcms/installer/index', ['step'=>3])}" role="button">下一步</a>
+    <a class="btn btn-light" href="{echo $router->build('/ebcms/installer/index', ['step'=>1])}" role="button">上一步</a>
+    <a class="btn btn-primary ms-2" href="{echo $router->build('/ebcms/installer/index', ['step'=>3])}" role="button">下一步</a>
     {else}
-    <a class="btn btn-light" href="{:$router->build('/ebcms/installer/index', ['step'=>1])}" role="button">上一步</a>
-    <a class="btn btn-warning ms-2" href="{:$router->build('/ebcms/installer/index', ['step'=>2])}" role="button">系统环境不满足需求，请检查！</a>
+    <a class="btn btn-light" href="{echo $router->build('/ebcms/installer/index', ['step'=>1])}" role="button">上一步</a>
+    <a class="btn btn-warning ms-2" href="{echo $router->build('/ebcms/installer/index', ['step'=>2])}" role="button">系统环境不满足需求，请检查！</a>
     {/if}
 </div>
 {include common/footer@ebcms/installer}

@@ -45,6 +45,6 @@
     </div>
 </div>
 <div class="mt-4 d-flex justify-content-end pt-4 border-top">
-    <a class="btn btn-primary" href="{:$router->build('/ebcms/installer/index', ['step'=>1])}" role="button">下一步</a>
+    <a class="btn btn-primary" href="{echo $router->build('/ebcms/installer/index', ['step'=>1])}" role="button">下一步</a>
 </div>
 {include common/footer@ebcms/installer}

@@ -45,7 +45,7 @@
     </div>
 </div>
 <div class="mt-4 d-flex justify-content-end pt-4 border-top">
-    <a class="btn btn-light" href="{:$router->build('/ebcms/installer/index', ['step'=>0])}" role="button">上一步</a>
-    <a class="btn btn-primary ms-2" href="{:$router->build('/ebcms/installer/index', ['step'=>2])}" onclick="return confirm('此协议具有法律效应，请认真阅读！！\r\n同意请点击“确定”\r\n不同意请点击“取消”');" role="button">下一步</a>
+    <a class="btn btn-light" href="{echo $router->build('/ebcms/installer/index', ['step'=>0])}" role="button">上一步</a>
+    <a class="btn btn-primary ms-2" href="{echo $router->build('/ebcms/installer/index', ['step'=>2])}" onclick="return confirm('此协议具有法律效应，请认真阅读！！\r\n同意请点击“确定”\r\n不同意请点击“取消”');" role="button">下一步</a>
 </div>
 {include common/footer@ebcms/installer}

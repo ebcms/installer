@@ -14,7 +14,7 @@
     </div>
 </div>
 <div class="mt-4 d-flex justify-content-end pt-4 border-top">
-    <a class="btn btn-primary me-2" href="{:$router->build('/ebcms/admin/index')}" target="_blank">登录后台</a>
-    <a class="btn btn-secondary" href="{:$router->build('/')}" target="_blank">访问前台</a>
+    <a class="btn btn-primary me-2" href="{echo $router->build('/ebcms/admin/index')}" target="_blank">登录后台</a>
+    <a class="btn btn-secondary" href="{echo $router->build('/')}" target="_blank">访问前台</a>
 </div>
 {include common/footer@ebcms/installer}

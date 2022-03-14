@@ -1,5 +1,5 @@
 {include common/header@ebcms/installer}
-<form action="{:$router->build('/ebcms/installer/index', ['step'=>4])}" method="POST">
+<form action="{echo $router->build('/ebcms/installer/index', ['step'=>4])}" method="POST">
     <div class="row">
         <div class="col-md-3">
             {include common/nav@ebcms/installer}
@@ -51,7 +51,7 @@
         </div>
     </div>
     <div class="mt-4 d-flex justify-content-end pt-4 border-top">
-        <a class="btn btn-light" href="{:$router->build('/ebcms/installer/index', ['step'=>2])}" role="button">上一步</a>
+        <a class="btn btn-light" href="{echo $router->build('/ebcms/installer/index', ['step'=>2])}" role="button">上一步</a>
         <button type="submit" class="btn btn-primary ms-2">安装</button>
     </div>
 </form>
