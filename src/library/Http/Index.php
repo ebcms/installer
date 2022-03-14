@@ -6,7 +6,6 @@ namespace App\Ebcms\Installer\Http;
 
 use App\Ebcms\Admin\Traits\ResponseTrait;
 use App\Ebcms\Admin\Traits\RestfulTrait;
-use App\Ebcms\Installer\Middleware\Lock;
 use DigPHP\Framework\Framework;
 use DigPHP\Request\Request;
 use DigPHP\Template\Template;
