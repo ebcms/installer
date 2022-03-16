@@ -1,6 +1,6 @@
 {
     "name": "ebcms/installer",
-    "description": "安装器",
+    "description": "可视化安装程序",
     "license": "GPL-3.0",
     "require": {
         "ebcms/admin": "^1.0",
@@ -10,5 +10,8 @@
         "psr-4": {
             "App\\Ebcms\\Installer\\": "src/library/"
         }
+    },
+    "extra": {
+        "title": "安装程序"
     }
 }
