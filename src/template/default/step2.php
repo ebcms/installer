@@ -106,7 +106,7 @@
                             }
                         }
                     }
-                    $val[1] = str_replace(\DigPHP\Framework\Framework::getRoot(), '', $val[1]);
+                    $val[1] = str_replace(\Ebcms\Framework\Framework::getRoot(), '', $val[1]);
                 }
                 return $items;
             }

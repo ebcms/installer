@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace App\Ebcms\Installer\Middleware;
 
-use DigPHP\Framework\Framework;
+use Ebcms\Framework\Framework;
 use Psr\Http\Message\ResponseFactoryInterface;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
