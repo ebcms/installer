@@ -106,7 +106,7 @@
                             }
                         }
                     }
-                    $val[1] = str_replace(\Ebcms\Framework\Framework::getRoot(), '', $val[1]);
+                    $val[1] = str_replace(\DiggPHP\Framework\Framework::getRoot(), '', $val[1]);
                 }
                 return $items;
             }

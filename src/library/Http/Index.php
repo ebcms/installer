@@ -6,9 +6,9 @@ namespace App\Ebcms\Installer\Http;
 
 use App\Ebcms\Admin\Traits\ResponseTrait;
 use App\Ebcms\Admin\Traits\RestfulTrait;
-use DigPHP\Request\Request;
-use DigPHP\Template\Template;
-use Ebcms\Framework\Framework;
+use DiggPHP\Request\Request;
+use DiggPHP\Template\Template;
+use DiggPHP\Framework\Framework;
 use PDO;
 use Rah\Danpu\Dump;
 use Rah\Danpu\Import;

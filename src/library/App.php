@@ -5,8 +5,8 @@ declare(strict_types=1);
 namespace App\Ebcms\Installer;
 
 use App\Ebcms\Installer\Middleware\JumpInstaller;
-use Ebcms\Framework\AppInterface;
-use Ebcms\Framework\Framework;
+use DiggPHP\Framework\AppInterface;
+use DiggPHP\Framework\Framework;
 
 class App implements AppInterface
 {
